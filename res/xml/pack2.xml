@@ -1,0 +1,16 @@
+
+<Pack2>
+ <!--  Тестовый уровень   -->
+	<lvl0 background="@drawable/lvl0bg">
+		<character type="SmellyCat" x="0.5" y="0.5" r="60" />
+		<character type="SmellyCat" x="0.8" y="0.8" r="60" />
+		<character type="SmellyCat" x="0.3" y="0.3" r="80" />
+		<character type="SmellyCat" x="0.3" y="0.8" r="80" />
+		<character type="SmellyCat" x="0.8" y="0.3" r="100" />
+	</lvl0>
+ <!-- Первый уровень  -->
+	<lvl1 background="lvl1bg">
+		<character type="Protagonist" x="0.4" y="0.4" r="80" />
+		<character type="SmellyCat" x="0.8" y="0.7" r="60" />
+	</lvl1>
+</Pack2>

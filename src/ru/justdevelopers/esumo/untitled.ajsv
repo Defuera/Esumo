@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)-->
+<ajsv>
+    <diagram creationDate="2012-Jun-03 05:15" filterScript="" licenseGrade="evaluation" licenseeName="Denis_V" licenseeOrganization="personal" version="1.7.9.v20120520-1257">
+        <class className="ru.justdevelopers.esumo.Sprite" project="ESumo" xLocation="100" yLocation="564"/>
+        <class className="ru.justdevelopers.esumo.SoundTrack" project="ESumo" xLocation="4292" yLocation="1304"/>
+        <class className="ru.justdevelopers.esumo.LevelBoxActivity" project="ESumo" xLocation="3024" yLocation="1460"/>
+        <class className="ru.justdevelopers.esumo.ParseExternal" project="ESumo" xLocation="1013" yLocation="1978"/>
+        <class className="ru.justdevelopers.esumo.CView" project="ESumo" xLocation="1444" yLocation="1671"/>
+        <class className="ru.justdevelopers.esumo.GameView" project="ESumo" xLocation="2397" yLocation="798"/>
+        <class className="ru.justdevelopers.esumo.Circle" project="ESumo" xLocation="1203" yLocation="559"/>
+        <class className="ru.justdevelopers.esumo.Main" project="ESumo" xLocation="2447" yLocation="1460"/>
+        <class className="ru.justdevelopers.esumo.Constructor" project="ESumo" xLocation="440" yLocation="1412"/>
+        <class className="ru.justdevelopers.esumo.LevelSelectActivity" project="ESumo" xLocation="3490" yLocation="893"/>
+        <class className="ru.justdevelopers.esumo.LevelParser" project="ESumo" xLocation="1906" yLocation="100"/>
+        <class className="ru.justdevelopers.esumo.GameMenuActivity" project="ESumo" xLocation="3580" yLocation="446"/>
+        <class className="ru.justdevelopers.esumo.GameActivity" project="ESumo" xLocation="4291" yLocation="624"/>
+    </diagram>
+</ajsv>

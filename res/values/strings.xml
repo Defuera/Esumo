@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ESumo</string>
+    <string name="finished_text">I dont really know what exactly had happend, but.</string>
+    <string name="loose_text">You lost mother fucker!</string>    
+    <string name="menu_new_game">New Game</string>
+    <string name="pref_difficulty">pref_difficulty</string>
+    <string name="difficulty_title">difficulty_title</string>
+    <string name="pref_max_score">pref_max_score</string>
+    <string name="score_title">score_title</string>
+    <string name="difficulty_easy">eee</string>
+    <string name="difficulty_normal">difficulty_normal</string>
+    <string name="difficulty_hard">difficulty_hard</string>
+    <string name="percentage">You collected :              stars!</string>
+</resources>

@@ -1,0 +1,120 @@
+<Pack1>
+ <!--  Тестовый уровень   -->
+	<lvl0 background="@drawable/lvl0bg">
+		<character type="SmellyCat" x="0.5" y="0.5" r="60" />
+		<character type="SmellyCat" x="0.8" y="0.8" r="60" />
+		<character type="SmellyCat" x="0.3" y="0.3" r="80" />
+		<character type="SmellyCat" x="0.3" y="0.8" r="80" />
+		<character type="SmellyCat" x="0.8" y="0.3" r="100" />
+	</lvl0>
+ <!-- Первый уровень  -->
+	<lvl1 background="lvl1bg">
+		<character type="Protagonist" x="0.4" y="0.4" r="80" />
+		<character type="SmellyCat" x="0.8" y="0.7" r="60" />
+	</lvl1>
+	<lvl2 background="lvl2bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="80" />
+		<character type="SmellyCat" x="0.3" y="0.3" r="60" />
+		<character type="SmellyCat" x="0.8" y="0.8" r="60" />
+	</lvl2>
+	<lvl3 background="lvl3bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="SmellyCat" x="0.3" y="0.3" r="80" />
+		<character type="SmellyCat" x="0.8" y="0.8" r="100" />
+	</lvl3>
+	<lvl4 background="lvl4bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="SmellyCat" x="0.3" y="0.3" r="80" />
+		<character type="FatCat" x="0.8" y="0.8" r="60" />
+	</lvl4>
+	<lvl5 background="lvl5bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="FatCat" x="0.2" y="0.3" r="100" />
+		<character type="SmellyCat" x="0.9" y="0.8" r="100" />
+	</lvl5>
+	<lvl6 background="lvl6bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="FatCat" x="0.3" y="0.3" r="80" />
+		<character type="FatCat" x="0.8" y="0.8" r="80" />
+		<character type="SmellyCat" x="0.3" y="0.8" r="100" />
+	</lvl6>
+	<lvl7 background="lvl7bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="FatCat" x="0.3" y="0.3" r="60" />
+		<character type="SmellyCat" x="0.8" y="0.8" r="80" />
+		<character type="TeddyCat" x="0.8" y="0.3" r="60" />
+	</lvl7>
+	<lvl8 background="lvl4bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="TeddyCat" x="0.3" y="0.3" r="100" />
+		<character type="FatCat" x="0.3" y="0.8" r="60" />
+		<character type="FatCat" x="0.8" y="0.3" r="60" />
+	</lvl8>
+	<lvl9 background="lvl5bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="TeddyCat" x="0.3" y="0.3" r="100" />
+		<character type="FatCat" x="0.8" y="0.8" r="80" />
+		<character type="SmellyCat" x="0.3" y="0.8" r="60" />
+	</lvl9>
+	<lvl10 background="lvl6bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="TeddyCat" x="0.3" y="0.3" r="100" />
+		<character type="FatCat" x="0.8" y="0.8" r="80" />
+		<character type="SmellyCat" x="0.3" y="0.8" r="60" />
+	</lvl10>
+	 <!-- Повторные уровни  -->
+	<lvl11 background="lvl1bg">
+		<character type="Protagonist" x="0.3" y="0.3" r="60" />
+		<character type="JunkCat" x="0.8" y="0.8" r="80" />
+	</lvl11>
+	<lvl12 background="lvl2bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="80" />
+		<character type="SmellyCat" x="0.3" y="0.3" r="100" />
+		<character type="JunkCat" x="0.8" y="0.8" r="80" />
+	</lvl12>
+	<lvl13 background="lvl3bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="SmellyCat" x="0.2" y="0.3" r="80" />
+		<character type="SmellyCat" x="0.8" y="0.8" r="80" />
+		<character type="JunkCat" x="0.3" y="0.8" r="80" />
+	</lvl13>
+	<lvl14 background="lvl4bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="SmellyCat" x="0.3" y="0.3" r="80" />
+		<character type="FatCat" x="0.8" y="0.8" r="60" />
+	</lvl14>
+	<lvl15 background="lvl5bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="FatCat" x="0.2" y="0.3" r="100" />
+		<character type="SmellyCat" x="0.9" y="0.8" r="100" />
+	</lvl15>
+	<lvl16 background="lvl6bg">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="FatCat" x="0.3" y="0.3" r="80" />
+		<character type="FatCat" x="0.8" y="0.8" r="80" />
+	</lvl16>
+	<lvl17 background="lvl7g">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="FatCat" x="0.3" y="0.3" r="60" />
+		<character type="SmellyCat" x="0.8" y="0.8" r="80" />
+		<character type="TeddyCat" x="0.8" y="0.3" r="60" />
+	</lvl17>
+	<lvl18 background="lvl4g">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="TeddyCat" x="0.3" y="0.3" r="100" />
+		<character type="FatCat" x="0.3" y="0.8" r="60" />
+		<character type="FatCat" x="0.8" y="0.3" r="60" />
+	</lvl18>
+	<lvl19 background="lvl5g">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="TeddyCat" x="0.3" y="0.3" r="100" />
+		<character type="FatCat" x="0.8" y="0.8" r="80" />
+		<character type="SmellyCat" x="0.3" y="0.8" r="60" />
+	</lvl19>
+	<lvl20 background="lvl6g">
+		<character type="Protagonist" x="0.5" y="0.5" r="default" />
+		<character type="IceLitty" x="0.3" y="0.3" r="100" />
+		<character type="FatCat" x="0.8" y="0.8" r="80" />
+		<character type="SmellyCat" x="0.3" y="0.8" r="60" />
+	</lvl20>
+</Pack1>

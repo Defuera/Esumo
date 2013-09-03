@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="ru.justdevelopers.esumo"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" 
+    			 android:label="@string/app_name"
+    			 android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+    			 
+        <activity android:name=".Main"
+                  android:label="@string/app_name"
+                  android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> 
+        
+        <activity android:name="GameActivity"
+	        	  android:configChanges="keyboardHidden|orientation" 
+	        	  android:screenOrientation="landscape">
+        </activity>
+        
+        <activity android:name=".LevelSelectActivity"
+        		  android:screenOrientation="landscape">
+        </activity>
+        
+        <activity android:name=".LevelBoxActivity"
+        		  android:screenOrientation="landscape"
+        		  >
+        </activity>
+                <activity android:name=".ChapterSelectActivity"
+        		  android:screenOrientation="landscape"
+        		  >
+        </activity>
+        
+        <activity android:name="Constructor"
+        		  android:screenOrientation="landscape"
+        		  >
+        </activity>
+        
+        <activity android:name="HorScrollView"
+        		  android:screenOrientation="landscape"
+        		  >
+        </activity>
+                
+        <activity android:name="ru.justdevelopers.esumo.GameMenuActivity"
+	        	  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+	        	  android:screenOrientation="landscape">
+	        	  <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+
+
+    </application>
+</manifest>

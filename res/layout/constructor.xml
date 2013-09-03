@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="right"
+    android:orientation="vertical" >
+    
+     	<com.android.esumo.CView
+		 android:id="@+id/constructor"
+		 android:layout_width="fill_parent"
+		 android:layout_height="fill_parent"/> 
+    
+    
+    <Button 
+    	android:id="@+id/constrplay"
+    	android:text="pp" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:layout_alignParentTop="true" 
+    	android:layout_alignParentLeft="true" >
+    </Button>
+    <Button 
+    	android:id="@+id/savelvl" 
+    	android:text="save" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:layout_alignParentTop="true" 
+    	android:layout_alignParentRight="true">
+    </Button>
+    <Button 	
+    	android:id="@+id/constrmenu"
+    	android:text="menu" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+ 
+   
+    	android:layout_alignParentRight="true">
+   </Button>   
+</RelativeLayout>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

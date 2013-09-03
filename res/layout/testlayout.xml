@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.1" >
+ 
+        <Button
+            android:text="0"
+            android:id="@+id/pnvLeft"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true" />
+ 
+        <Button
+            android:text="1"
+            android:id="@+id/pnvRight"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true" />
+ 
+        <Button
+            android:text="2"
+            android:id="@+id/bidViewLeft"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/pnvLeft" />
+ 
+        <Button
+            android:text="3"
+            android:id="@+id/bidViewRight"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@+id/pnvRight" />
+        
+        <ProgressBar
+            style="?android:attr/android:progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressLeft"
+            android:layout_toRightOf="@+id/bidViewLeft" />
+        
+        <ProgressBar
+            style="?android:attr/android:progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressRight"
+            android:layout_toLeftOf="@+id/bidViewRight" />
+    </RelativeLayout>
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.65"
+        android:orientation="horizontal" >
+ 
+        <Button
+            android:text="4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".6" />
+ 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".4"
+            android:orientation="vertical" >
+ 
+            <Button
+            android:text="5"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_gravity="top"
+                android:layout_weight="1" />
+ 
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom" >
+ 
+                <Button
+            android:text="6"
+                    android:id="@+id/pnvBottom"
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    />
+ 
+                <Button
+            android:text="7"
+                    android:id="@+id/bidViewBottom"
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+ 
+        <Button
+            android:text="8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".6" />
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.25"
+        android:orientation="horizontal" >
+ 
+        <Button
+            android:text="9"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.75" />
+ 
+        <Button
+            android:text="10"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.25" />
+    </LinearLayout>
+ 
+</LinearLayout>
