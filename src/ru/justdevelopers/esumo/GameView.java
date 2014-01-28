@@ -55,10 +55,6 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
 						break;
 					}
 					finally {
-						// do this in a finally so that if an exception is
-						// thrown
-						// during the above, we don't leave the Surface in an
-						// inconsistent state
 						if (canvas != null) {
 							surfaceHolder.unlockCanvasAndPost(canvas);
 						}
@@ -108,7 +104,6 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
 
 		// sounds.play(sExplosion, 1.0f, 1.0f, 0, 0, 1.5f);
 
-		System.out.println("CREATOIN");
 		// height = gv.getHeight();
 		// width = gv.getWidth();
 		// Circle.setScreenParams(width, height);
